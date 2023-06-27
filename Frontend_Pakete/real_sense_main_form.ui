@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RealSenseMainForm</class>
+ <widget class="QWidget" name="RealSenseMainForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1124</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RealSense</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0" colspan="2">
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1104</width>
+        <height>610</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_2">
+       <item row="0" column="0">
+        <widget class="QWidget" name="background_widget" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>1080</width>
+           <height>570</height>
+          </size>
+         </property>
+         <widget class="QGroupBox" name="storage_rack_box">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="geometry">
+           <rect>
+            <x>770</x>
+            <y>70</y>
+            <width>271</width>
+            <height>181</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Lagerregal</string>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+          <widget class="QLabel" name="cr33">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>130</y>
+             <width>71</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="toolTip">
+            <string>Regal/Fach : 3/3</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>cr33</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="cr23">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>80</y>
+             <width>71</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="toolTip">
+            <string>Regal/Fach : 2/3</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>cr23</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="cr12">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>30</y>
+             <width>71</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="toolTip">
+            <string>Regal/Fach : 1/2</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>cr12</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="cr22">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>80</y>
+             <width>71</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="toolTip">
+            <string>Regal/Fach : 2/2</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>cr22</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="cr32">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>130</y>
+             <width>71</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="toolTip">
+            <string>Regal/Fach : 3/2</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>cr32</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="cr13">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>30</y>
+             <width>71</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="toolTip">
+            <string>Regal/Fach : 1/3</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>cr13</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="cr21">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>80</y>
+             <width>71</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="toolTip">
+            <string>Regal/Fach : 2/1</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>cr21</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="cr31">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>130</y>
+             <width>71</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="toolTip">
+            <string>Regal/Fach : 3/1</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>cr31</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="cr11">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>30</y>
+             <width>71</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="toolTip">
+            <string>Regal/Fach : 1/1</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>cr11</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="photo_bt">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>520</y>
+            <width>121</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="toolTip">
+           <string>Erstelle Photo aus dem aktuellen Kamerastream </string>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>Photo machen</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="ctrl_camera_bt">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>520</y>
+            <width>121</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="toolTip">
+           <string>Startet die Verbindung zur angeschlossenen Kamera</string>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>Kamera verbinden</string>
+          </property>
+         </widget>
+         <widget class="QTextBrowser" name="log_ausgabe">
+          <property name="geometry">
+           <rect>
+            <x>720</x>
+            <y>450</y>
+            <width>351</width>
+            <height>111</height>
+           </rect>
+          </property>
+          <property name="toolTip">
+           <string>Anzeige der Logausgaben</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="wait_image_label">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>500</y>
+            <width>601</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">alternate-background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));</string>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="text">
+           <string>WaitImageLabel</string>
+          </property>
+          <property name="scaledContents">
+           <bool>false</bool>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+         <widget class="Line" name="line">
+          <property name="geometry">
+           <rect>
+            <x>683</x>
+            <y>10</y>
+            <width>20</width>
+            <height>551</height>
+           </rect>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_log_ausgabe">
+          <property name="geometry">
+           <rect>
+            <x>720</x>
+            <y>430</y>
+            <width>71</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Logausgabe</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="video_label">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>640</width>
+            <height>480</height>
+           </rect>
+          </property>
+          <property name="toolTip">
+           <string>Kamerastraem</string>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>VideoLabel</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="image_label">
+          <property name="geometry">
+           <rect>
+            <x>730</x>
+            <y>20</y>
+            <width>320</width>
+            <height>240</height>
+           </rect>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="text">
+           <string>ImageLabel</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="ctrl_automatic_bt">
+          <property name="geometry">
+           <rect>
+            <x>260</x>
+            <y>520</y>
+            <width>121</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>MS Shell Dlg 2</family>
+           </font>
+          </property>
+          <property name="toolTip">
+           <string>Startet die Automatik, die in regelmäßigen Abstände Photos macht</string>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>Automatik starten</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_last_update">
+          <property name="geometry">
+           <rect>
+            <x>730</x>
+            <y>270</y>
+            <width>321</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>lastUpdate</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_status_storacke_rack">
+          <property name="geometry">
+           <rect>
+            <x>730</x>
+            <y>290</y>
+            <width>321</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>lastStatusStorackeRack</string>
+          </property>
+         </widget>
+         <zorder>storage_rack_box</zorder>
+         <zorder>photo_bt</zorder>
+         <zorder>ctrl_camera_bt</zorder>
+         <zorder>log_ausgabe</zorder>
+         <zorder>line</zorder>
+         <zorder>label_log_ausgabe</zorder>
+         <zorder>video_label</zorder>
+         <zorder>image_label</zorder>
+         <zorder>ctrl_automatic_bt</zorder>
+         <zorder>wait_image_label</zorder>
+         <zorder>label_last_update</zorder>
+         <zorder>label_status_storacke_rack</zorder>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

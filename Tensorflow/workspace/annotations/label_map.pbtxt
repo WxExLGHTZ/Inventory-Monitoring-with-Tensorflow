@@ -1,0 +1,16 @@
+item { 
+	name:'blau'
+	id:1
+}
+item { 
+	name:'rot'
+	id:2
+}
+item { 
+	name:'weiss'
+	id:3
+}
+item { 
+	name:'schwarz'
+	id:4
+}

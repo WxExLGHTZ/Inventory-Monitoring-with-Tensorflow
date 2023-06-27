@@ -8,8 +8,6 @@ Viktor Kruckow s0569025
 
 William Eppel s0570986
 
-
-Team: 03
 Semester: WS21/22
 
 Eine Software um ein Lagerbestand auszulesen mithilfe von Neuronalen Netzen
@@ -28,13 +26,11 @@ Vorbereitung:
 
 Installation:
 1. Klonen Sie sich das repository in ein Verzeichnis Ihrer Wahl
-	
-	git clone https://gitlab.rz.htw-berlin.de/softwareentwicklungsprojekt/wise2021-22/team3.git
 
 2. Legen Sie sich eine eigene virtuelle Umgebung an. So werden alle Bibliotheken in die virtuelle Umgebung runtergeladen und abgespeichert.
 
 	1. Öffnen Sie die Kommandozeile als Administrator
-	2. Navigieren Sie in das Verzeichnis _team3_, welches Sie im vorherigen Schritt gecloned haben
+	2. Navigieren Sie in das Verzeichnis, welches Sie im vorherigen Schritt gecloned haben
 	3. geben Sie den folgenden Befehl zum erstellen einer virtuellen Umgebung ein:
 
 			{path to python.exe} -m venv venv
@@ -74,7 +70,7 @@ Installation:
 
 6. Wählen Sie den für dieses Projekt erstellten Python Interpreter
 
-	Achtung: der Pfad zum Interpreter ist: team3/venv/Scripts/Python.exe
+	Achtung: der Pfad zum Interpreter ist: /venv/Scripts/Python.exe
 
 7. Wählen Sie den Eintiegspunkt der Run/Debug configuration aus
 
@@ -108,7 +104,7 @@ Nach erfolgreichem Abschluss des Setups muss folgendes in der **main.py** getan 
 
 Für das Testen der Erkennungsfunktion des neuronalen Netzes muss sich ein Testbild im folgenden Ordner befinden:
 
-	team3\Testimage\test.png
+	\Testimage\test.png
 
 	Achtung: standardmäßig befindet sich bereits ein Testbild im genannten Verzeichnis. 
 
@@ -169,8 +165,8 @@ Benutzung:
 --> Nach dem Drücken von "Kamera verbinden" wird die Schaltfläche "Photo machen" aktiv 
 
 2) Drücken Sie auf "Photo machen"
---> Das Program lädt standardmäßig das Testbild aus dem Ordner "team3/Testimage"
+--> Das Program lädt standardmäßig das Testbild aus dem Ordner "/Testimage"
 
-3) Das Ergebnis der Erkennung erscheint auf der Benutzeroberfläche und wird in "team3/ResultOfRecognition" gespeichert
+3) Das Ergebnis der Erkennung erscheint auf der Benutzeroberfläche und wird in "/ResultOfRecognition" gespeichert
 
 4) Der erkannte Lagerbestand wird mit den dazugehörigen Logdaten in der Datenbank abgespeichert (Verbindung in: database.py)
